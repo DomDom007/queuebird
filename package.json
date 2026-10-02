@@ -1,0 +1,42 @@
+{
+  "name": "queuebird",
+  "description": "A text message queue for barbers and food trucks. Customers wander off and get pinged when they are two away.",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Mokhles Ben Moallem <management@metatunisie.com>",
+  "license": "MIT",
+  "homepage": "https://mokhless2.github.io/queuebird/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokhless2/queuebird.git"
+  },
+  "keywords": [
+    "queuebird",
+    "micro-tool",
+    "client-side",
+    "privacy-first",
+    "offline-tool",
+    "main",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "qrcode-generator": "^2.0.4",
+    "fflate": "^0.8.3",
+    "js-yaml": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
